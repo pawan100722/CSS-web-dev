@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Introduction</title>
+</head>
+<body>
+    <h1>Introduction</h1>
+
+<ol>
+  <li>CSS means Cascading Style Sheets.</li>
+  <li>It is a stylesheet language used to write presentation of a HTML webpage</li>
+  <li>CSS is used to change/manipulate the look of a HTML page</li>
+  <li>CSS can be implemented in 3 ways:</li>
+  <dl>
+    <dt><strong>Types</strong></dt>
+      <dd>Inline CSS: Write CSS in HTML tag using <mark>"style"</mark> attribute of the tag</dd>
+      <dd>Internal CSS: Write CSS in same HTML file, using <mark>&lt;style&gt;</mark>tag inside HEAD tag</dd>
+
+      <dd><strong>External CSS</strong>: 
+      <ol>
+        <li>The <mark>"href"</mark> attribute of the tag will help the CSS file.</li>
+        <li>Write CSS in separate CSS file and link the file to the HTML files using <mark>&lt;link&gt;</mark>tag.</li>
+        <li>The <mark>"rel"</mark> attribute, which specifies the relationship, must have <mark>"stylesheet"</mark> as value</li>
+        <li>The style tag must be used inside the HEAD tag</li>
+      </ol></dd>
+  </dl>
+  <li>Inline CSS will have highest priority.</li>
+  <li>Other than inline CSS, priority is set by ordering, the CSS which gets executed later will be applied.</li>
+  <li>If the external CSS file gets executed after internal CSS the the external CSS will be applied and vice-versa.</li>
+</ol>
+
+<h2>Change tab image/icon of the web page</h2>
+
+<ul>
+  <li>It can be changed using <mark>&lt;link&gt;</mark> tag.</li>
+  <li>The Link tag must have <mark>rel="shortcut icon"</mark> and <mark>type="image/x-icon"</mark></li>
+  <li>The <mark>"href"</mark> attribute must have link of the icon</li>
+</ul>
+</body>
+</html>
